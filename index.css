@@ -1,1 +1,6 @@
-index.css
+
+figure{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
