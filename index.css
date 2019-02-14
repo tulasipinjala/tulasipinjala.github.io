@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+    font-size: 15px;
 }
 img {
 	width = 100%;
@@ -15,13 +15,12 @@ img {
 }
 figcaption{
     background-color: organge;
-	float: left;
-    width: 30%;
+	float: center;
+    width: 40%;
     position:absolute;
     text-align: center;
     font-style: italic;
     font-size: smaller;
-    text-indent: 0;
     border: thin silver solid;
    
 }
