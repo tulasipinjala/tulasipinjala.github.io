@@ -1,28 +1,41 @@
 html {
-    font-size: 15px;
+	font-size: 15px;
 }
-
 img {
-	width = 100%;
+	width :50%;
 	height : auto;
 }
  figure{
- 	
-    position: relative;
-    display : block;
-    margin-left: auto;
-    margin-right: : auto;
-    width :60%;
+	
+	display : block;
+	margin-right: auto;
+	margin-left: auto;
+	width :40%;
 }
 figcaption{
-    background-color: organge;
-	float: center;
-    width: 40%;
-    position:absolute;
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    border: thin silver solid;
+	
+	margin:0px 20px;
+	margin-inline-start:1px;
+	 display:inline-block;
+	text-decoration:ivory;
+	border-color: silver;
+	
+    
    
 }
+.header-header__title{
+	align-items: right;
+	display: flex;
+}
+.linked-image{
+	align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h4{
+	align-content: center;
+	display: flex;
+	justify-content: center;
 
+}
