@@ -6,32 +6,33 @@ img {
 	height : auto;
 }
  figure{
-	
 	display : block;
-	margin-right: auto;
 	margin-left: auto;
-	width :40%;
+	width:50%;
 }
 figcaption{
-	
-	margin:0px 20px;
-	margin-inline-start:1px;
-	 display:inline-block;
+	margin:20px 20px;
+	margin-inline-start:0px;
+	 display:ruby-base;
 	text-decoration:ivory;
 	border-color: silver;
-	
-    
-   
 }
-.header-header__title{
-	align-items: right;
-	display: flex;
+body{
+	background-color: blanchedalmond;
 }
-.linked-image{
-	align-items: center;
+.my-title{
+	align-content: center;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+	width: 100%;
+	color:beige;
+    margin-left: 1rem;
+	
+}
+.links--left-side{
+	margin-left: 1rem;
 }
 h4{
 	align-content: center;
@@ -39,8 +40,29 @@ h4{
 	justify-content: center;
 
 }
-body{
-	background-image: url("snow.jpg");
-  }
-  
-				
+.plainimage{
+	align-items: center top;
+    background-image: url("image/plain.jpg");
+    background-position: 100% 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: center top;
+    margin-bottom: 2rem;
+}
+
+.titles__list-left {
+	display: flex;
+    list-style-type: none;
+	margin-right:2rem;
+	color:brown; 
+}
+.linked-image{
+	align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+			
