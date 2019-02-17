@@ -42,7 +42,7 @@ h4{
 }
 .plainimage{
 	align-items: center top;
-    background-image: url("image/plain.jpg");
+    background-image: url("Image/plain.jpg");
     background-position: 100% 100%;
     background-size: cover;
     display: flex;
