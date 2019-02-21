@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+	padding: 5px;
+	border: 10px plum;
+	
+}
 html {
 	font-size: 15px;
 }
@@ -16,6 +23,20 @@ figcaption{
 	 display:ruby-base;
 	text-decoration:ivory;
 	border-color: silver;
+}
+.about-me{
+	display: flex;
+	text-align: center;
+	text-decoration-line: none;
+	text-decoration-color: blueviolet;
+
+}
+.column-layout {
+    display: grid;
+}
+.column-layout--three {
+    grid-row-gap: 1rem;
+     grid-template-columns: repeat(3, 1fr); 
 }
 body{
 	background-color: blanchedalmond;
