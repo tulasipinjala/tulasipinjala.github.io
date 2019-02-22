@@ -31,6 +31,22 @@ figcaption{
 	text-decoration-color: blueviolet;
 
 }
+.Bio{
+	text-align: center;
+	text-decoration: brown;
+	text-emphasis-style: inherit;
+	border: chartreuse;
+}
+.skills{
+	text-align: center;
+	text-decoration: brown;
+	text-emphasis-style: inherit;
+}
+.contact{
+    text-align: center;
+	text-decoration: brown;
+	text-emphasis-style: inherit;
+}
 .column-layout {
     display: grid;
 }
