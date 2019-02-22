@@ -34,7 +34,8 @@ figcaption{
 .Bio{
 	text-align: center;
 	text-decoration: brown;
-	border: chartreuse;
+	border-style: solid;
+    border-color: chartreuse;
 	box-shadow: aqua;
 	margin : 1em;
 	padding : 0em;
