@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 10px;
 	padding: 5px;
-	border: 10px plum;
+	border: 10px peru;
 	
 }
 html {
@@ -34,16 +34,15 @@ figcaption{
 .Bio{
 	text-align: center;
 	text-decoration: brown;
-	text-emphasis-style: inherit;
 	border: chartreuse;
+	box-shadow: aqua;
+	margin : 1em;
+	padding : 0em;
+	border: 2em;
+
 }
-.skills{
+.Technical-inventory{
 	text-align: center;
-	text-decoration: brown;
-	text-emphasis-style: inherit;
-}
-.contact{
-    text-align: center;
 	text-decoration: brown;
 	text-emphasis-style: inherit;
 }
