@@ -6,63 +6,80 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>professional portfolio!</title>
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<nav>
+		<a class="top-left" href="/">Home</a>
+		<a class="top-left" href="/">Articles</a>
+	</nav>
+	
 </head>
 
 <body>
-	<div class=container>
 		<figure>
-			<img src="tulasi.jpg" alt="Tualsi Pinjala">
-			<h1 class=title>Tulasi Pinjala</h1>
-			<h3 class=subtitle>Java Developer</h3>
+			<div class="grid-container">
+				<img class="center" src="Image/tulasi.jpg" alt="Tulasi Pinjala">
+				<div style="text-align:right">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				  </div>
+				<div class="column-layout">Tulasi Pinjala</div>
+				<div class="column-layout1">Java Developer</div>
+			</div>
 		</figure>
-		<h2 class=maintitle1>Home</h2>
-		<h2 class=maintitle2>Articles</h2>
-		<a class=aboutme>About me</a>
-		<a class=project>Projects</a>
-		<a class=education>Education</a>
-		<a class=contact>Contact Me</a>
-		<h1>About Me</h1>
-		<p class=slef>My name is Tulasi Pinjala. I was born and brought up in India. I did masters in computer
-			applications.After marriage I moved to USA. I like gardening and interier decoration.</p>
-		<p class=studies>I am learning java in Wecancodeit.A full stack java developer with a strong foundation in
-			computer
-			applications, passionate about learning and developing code-based things.Enhanced abilities in designing,
-			implementing, testing,
-			and upgrading software and keeping updated with the latest It trends and technologies.</p>
-		<h1>Projects</h1>
-		<h4 class=project1> Project1 :</h4>
-		<p>Virtual Toys,Inc. wants to build the next iteration of virtual pets to market to adults who enjoy
-			updated versions of the toys and games.</p>
-		<ul class=list>
-			<li>For this project followed agile methodology and test-driven design.</li>
-			<li>Created useful player instructions and proper documentation.</li>
-			<li>Created an interactive interface.</li>
-			<li>Used Arraylist, Collections and inheritance while creating the Virtual Pet.</li>
-		</ul>
-		<p>Languages :JavaScript,Java.</p>
-		<p>Tools :Source Control/Git,Gradle, Eclipse.</p>
-		<h5>screenshots for virtualpet project</h5>
-		<div class="virtualpet-screenshot">
-			<a href="https://github.com/tulasipinjala/virtual-pet">
-				<img title="virtualpet" alt="virtualpet" src="Image/virtualpet.JPG">
-			</a>
-		</div>
-		<!--/.virtualpet-screenshot-->
-		<h4 class=project2> Project2 :</h4>
-		<p>High St. Hospital is an organization. They have unkempt files of employee information
-			scattered throughout manilla folders, computer data files, and old tin filing cabinets.
-			High St. Hospital wants to get it together.They have subcontracted We Can Code IT full-stack
-			apprentices to come in and organize.</p>
-		<p>Languages: Java</p>
-		<p>Tools:Source Control/Git,Gradle, Eclipse.</p>
-		<h5>screenshots for St.hospital project</h5>
-		<div class="St.Hospital-screenshot">
-			<a href="https://github.com/tulasipinjala/Hospital-masteryproject">
-				<img title="St.Hospital" alt="St.Hospital" src="Image/mastery.JPG">
-			</a>
-		</div>
-		<!--/.St.Hospital-screenshot-->
+	</div>
+	
+		  <div class="container">
+		  
+  <div class="overlay">
+    <div class="text">About Me</div>
+  </div>
+</div>
+	
+	<h1>About Me</h1>
+	<p class=slef>My name is Tulasi Pinjala. I was born and brought up in India. I did masters in computer
+		applications.After marriage I moved to USA. I like gardening and interier decoration.</p>
+	<p class=studies>I am learning java in Wecancodeit.A full stack java developer with a strong foundation in
+		computer
+		applications, passionate about learning and developing code-based things.Enhanced abilities in designing,
+		implementing, testing,
+		and upgrading software and keeping updated with the latest It trends and technologies.</p>
+	<h1>Projects</h1>
+	<h4 class=project1> Project1 :</h4>
+	<p>Virtual Toys,Inc. wants to build the next iteration of virtual pets to market to adults who enjoy
+		updated versions of the toys and games.</p>
+	<ul class=list>
+		<li>For this project followed agile methodology and test-driven design.</li>
+		<li>Created useful player instructions and proper documentation.</li>
+		<li>Created an interactive interface.</li>
+		<li>Used Arraylist, Collections and inheritance while creating the Virtual Pet.</li>
+	</ul>
+	<p>Languages :JavaScript,Java.</p>
+	<p>Tools :Source Control/Git,Gradle, Eclipse.</p>
+	<h5>screenshots for virtualpet project</h5>
+	<div class="virtualpet-screenshot">
+		<a href="https://github.com/tulasipinjala/virtual-pet">
+			<img title="virtualpet" alt="virtualpet" src="Image/virtualpet.JPG">
+		</a>
+	</div>
+	<!--/.virtualpet-screenshot-->
+	<h4 class=project2> Project2 :</h4>
+	<p>High St. Hospital is an organization. They have unkempt files of employee information
+		scattered throughout manilla folders, computer data files, and old tin filing cabinets.
+		High St. Hospital wants to get it together.They have subcontracted We Can Code IT full-stack
+		apprentices to come in and organize.</p>
+	<p>Languages: Java</p>
+	<p>Tools:Source Control/Git,Gradle, Eclipse.</p>
+	<h5>screenshots for St.hospital project</h5>
+	<div class="St.Hospital-screenshot">
+		<a href="https://github.com/tulasipinjala/Hospital-masteryproject">
+			<img title="St.Hospital" alt="St.Hospital" src="Image/mastery.JPG">
+		</a>
+	</div>
+	<!--/.St.Hospital-screenshot-->
 	</div><!-- /.container -->
 	<h1>Education</h1>
 	<h5 class=year>2006-2009</h5>
@@ -78,21 +95,21 @@
 		• Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases
 		• Source Control / Git</p>
 	<h1>Contact Me</h1>
-	<h6 class= mail>tulasipinjala@gmail.com</h6>
-	
-			<h4>Follow me</h4>
-			<div class="linked-image">
-				<a href="https://www.linkedin.com/feed/">
-					<img title="linkedin" alt="Linkedin" src="Image/linkedin.jpg" width="40" height="40">
-				</a>
-				<a href="https://github.com/tulasipinjala">
-					<img title="Github" alt="Github" src="Image/Github.jpg" width="40" height="40">
-				</a>
-			</div>
-			<!--/.linked-image-->
-			<footer>
-			<small>&copy; Tulasi Pinjala</small>
-		</footer>
+	<h6 class=mail>tulasipinjala@gmail.com</h6>
+
+	<h4>Follow me</h4>
+	<div class="linked-image">
+		<a href="https://www.linkedin.com/feed/">
+			<img title="linkedin" alt="Linkedin" src="Image/linkedin.jpg" width="40" height="40">
+		</a>
+		<a href="https://github.com/tulasipinjala">
+			<img title="Github" alt="Github" src="Image/Github.jpg" width="40" height="40">
+		</a>
+	</div>
+	<!--/.linked-image-->
+	<footer>
+		<small>&copy; Tulasi Pinjala</small>
+	</footer>
 
 
 </body>
