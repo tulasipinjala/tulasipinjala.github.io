@@ -10,14 +10,13 @@ body{
 	
 }
 .center{
-	background-color:lavender;
+  background-color:lavender;
   background-repeat: no-repeat;
   background-position: 60px;
   border: 5px;
   border-color: wheat;
- 
-
 }
+
  .grid-container {
 	 display: grid;
 	 grid-gap : 0rem;
@@ -63,7 +62,7 @@ body{
 	 text-align: center;
 	 line-height : 1.1em;
 	 padding-bottom: 20px;
-	 padding-top: 40px;
+	 padding-top: 160px;
 	 border:lightblue;
  }
  p.self{
@@ -241,9 +240,8 @@ padding-bottom: 20px;
 }
 .contactme{
 	text-align: center;
-	font-style:oblique;
 	line-height:0.8em;
-	padding-bottom: 20px;	
+	padding-bottom: 10px;		
 }
 .mail{
 	text-align: center;
@@ -256,14 +254,53 @@ padding-bottom: 20px;
 	border: 2px solid green;
     padding-top:50px;
 	padding-bottom: 30px;
-	padding-left: 40px;
-	padding-right: 50px;
-	margin-left: 250px;
-	margin-right: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 350px;
+	margin-right: 350px;
 	margin-top:150px;
 }
+.myart{
+	border: 2px solid rgb(0, 128, 53);
+	border-width: 30px;
+}
+.art{
+	text-align: center;
+	line-height:0.8em;
+	padding-bottom: 20px;	
+	padding-top: 140px;	
+	
+}
+
+.dot {
+	height: 25px;
+	width: 25px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 40px;
 	 
- }
+  }
+ 
+  .dot .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color:green;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+   
+	
+	position: absolute;
+	z-index: 1;
+  }
+  .dot:hover .tooltiptext {
+	visibility: visible;
+  }
+  .title1{
+	  text-align: center;
+  }
  .column {
 	-ms-flex: 50%; 
 	flex: 50%;
@@ -273,6 +310,13 @@ padding-bottom: 20px;
 	display: grid;
 	grid-template-rows:120px 130px 120px;	
  }
+ .virtualpet-screenshot{
+	padding-left: 360px;
+	padding-bottom: 40px;
+  }
+  .st.Hospital-screenshot{
+	padding-left: 360px;
+	padding-bottom: 40px;
  
  
 
