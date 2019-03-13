@@ -318,7 +318,10 @@ padding-bottom: 20px;
 	padding-left: 360px;
 	padding-bottom: 40px;
  
- 
+  }
+  .mySlides{
+	  display: none;
+  }
 
 
 
