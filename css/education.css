@@ -1,0 +1,89 @@
+.education{
+	text-align: center;
+	line-height:0.8em;
+	padding-bottom: 20px;	
+}
+.year1{
+	text-align: center;
+	line-height:0.8em;
+	padding-top:20px;
+}
+.name1{
+	text-align: center;
+	line-height:0.8em;
+	padding-bottom: 10px;	
+}
+.data1{
+	font-style: oblique;
+	font-size: 15px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 35em;
+	padding-bottom: 30px;	
+}
+.year2{
+	text-align: center;
+	line-height:0.8em;
+
+}
+.name2{
+	text-align: center;
+	line-height:0.8em;
+	padding-bottom: 10px;	
+}
+.data2{
+	font-style: oblique;
+	font-size: 15px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 35em;
+	padding-bottom: 30px;	
+}
+.skills{
+	text-align: center;
+	line-height:0.8em;
+	padding-bottom: 10px;	
+}
+.skillset{
+font-style: oblique;
+font-size: 15px;
+margin-left: auto;
+margin-right: auto;
+width: 35em;
+padding-bottom: 20px;	
+}
+/* .border{
+	border: 2px solid green;
+    padding-top:50px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 50px;
+	margin-left: 180px;
+	margin-right: 180px;
+	margin-top:70px;
+} */
+.background-image{
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+}
+
+.text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+     /* border: 10px solid #f1f1f1;  */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%); 
+    z-index: 2;
+    width: 800px;
+	padding:0px;
+    text-align: center;
+  }  
+   

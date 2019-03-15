@@ -7,8 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>professional portfolio!</title>
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/js.css">
+	<link rel="stylesheet" href="css/carousel.css">
 	<nav>
 		<div class="navicon-container">
 			<button class="hide-navicon-button">
@@ -17,10 +16,13 @@
 				<span class="bar bar-barbottom"></span>
 			</button>
 			<div class="mynavicon">
-				<a class="top-left" href="index.html">Home</a>
-				<a class="top-left" href="https://www.facebook.com/Ananya.Avighna/">My Arts</a>
-				<button class="hide-mypage"> My Portfolio</button>
-				<!-- */<a class="top-left" href="mainPage.html">My Protfolio</a>*/ -->
+				<ul class="hide-list">
+					<li class="nav-item"><a class="top-left" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="top-left" href="https://www.facebook.com/Ananya.Avighna/">My Arts</a>
+					</li>
+					<li class="nav-item"><button class="hide-mypage"> My Portfolio</button></li>
+				</ul>
+
 			</div>
 		</div>
 	</nav>
@@ -28,37 +30,74 @@
 
 <body>
 	<h2 class="container"></h2>
-	<!-- <button class="hide-mynav-icon"></button> -->
-	<!-- <button class="hide-mypage"> My Portfolio</button> -->
+	<button class="hide-mynav-icon"></button>
+	<!-- <button class="hide-mypage"> My Portfolio</button>  -->
 	<div class="mypage-container">
-		<figure>
-			<div class="grid-container">
-				<div>
-					<div class="column-layout">Tulasi </div>
-					<div class="column-layout1">Pinjala </div>
-					<div class="column-layout2">Java Developer</div>
-				</div>
-				<div class="w3-content">
-					<img class="center" src="Image/tulasi.jpg">
-					<!-- <img class="mySlides" src="Image/resume.jpg">
-						<img class="mySlides" src="Image/virtualpet.JPG">
-						<img class="mySlides" src="Image/mastery.JPG">
-						<img class="mySlides" src="Image/image8.JPG"> -->
-				</div>
-		</figure>
-		<div class="dot-container">
-			<div class="dot">
-				<a class="tooltiptext" href="about-me.html">About Me</a>
-			</div>
-			<div class="dot">
-				<a class="tooltiptext" href="work-experience.html">Work Experience</a>
-			</div>
-			<div class="dot">
-				<a class="tooltiptext" href="education.html">Education</a>
-			</div>
-			<div class="dot">
-				<div class=border-me>
-					<div class="tooltiptext">
+			<figure>
+				<div class="grid-container">
+						<div>
+								<div class="column-layout">Tulasi </div>
+								<div class="column-layout1">Pinjala </div>
+								<div class="column-layout2">Java Developer</div>
+							</div> 
+							
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 6</div>
+			<img src="Image/tulasi.jpg" style="width:100%">
+			<!-- <div class="text">Profile Picture</div> -->
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 6</div>
+			<img src="Image/resume.jpg" style="width:100%">
+			<!-- <div class="text">Resume</div> -->
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 6</div>
+			<img src="Image/education.jpg" style="width:100%">
+			<!-- <div class="text">Caption Three</div> -->
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 6</div>
+			<img src="Image/image1ed.JPG" style="width:100%">
+			<!-- <div class="text">Caption Three</div> -->
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 6</div>
+			<img src="Image/image6.JPG" style="width:100%">
+			<!-- <div class="text">Caption Three</div> -->
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">6 / 6</div>
+			<img src="Image/image5.jpg" style="width:100%">
+			<!-- <div class="text">Caption Three</div> -->
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 3</div>
+			<img src="Image/image9.JPG" style="width:100%">
+			<!-- <div class="text">Caption Three</div> -->
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	</div>
+	<div class="dot-container">
+		<div class="dot">
+			<a class="tooltiptext" href="about-me.html">About Me</a>
+		</div>
+		<div class="dot">
+			<a class="tooltiptext" href="work-experience.html">Work Experience</a>
+		</div>
+		<div class="dot">
+			<a class="tooltiptext" href="education.html">Education</a>
+		</div>
+		<div class="dot">
+			<div class=border-me>
+				<div class="tooltiptext">
 					<button id="myButton">Contact Me</button>
 					<div id="myModal" class="modal">
 						<div class="modal-content">
@@ -75,10 +114,10 @@
 						</div>
 					</div>
 				</div>
-				</div>
-				<!--/.border-me-->
 			</div>
+			<!--/.border-me-->
 		</div>
+	</div>
 	</div>
 	</div>
 	</figure>
@@ -91,6 +130,7 @@
 	</footer>
 
 	<script src="js/app.js"></script>
+	<script src="js/carousel.js"></script>
 </body>
 
 </html>
