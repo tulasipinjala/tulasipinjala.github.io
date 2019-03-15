@@ -5,10 +5,10 @@
 	border : 5px aqua;
 	
 }
-body{
-	background-color:snow;
+ body{
+	background-color:rgb(109, 177, 109);
 	
-}
+} 
 .center{
   background-color:lavender;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	width: 40%;
+	width: 90%;
 	
  }
  .grid-container{
@@ -56,124 +56,7 @@ body{
 	padding-left: 220px;
 	padding-bottom: 300px;
  }
- .about-me{
-	 font-size : 40px;
-	 font-style:italic;
-	 text-align: center;
-	 line-height : 1.1em;
-	 padding-bottom: 20px;
-	 padding-top: 160px;
-	 border:lightblue;
- }
- p.self{
-	font-style: oblique;
-	font-size: 20px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 35em;
-	padding-bottom: 20px;
-}
-p.studies{
-	font-style: oblique;
-	font-size: 20px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 35em;
-	padding-bottom: 50px;
 
-}
-
-.work-experience{
-	font-size : 40px;
-	 font-style:italic;
-	 text-align: center;
-	 line-height : 1.1em;
-	 padding-top: 10px;
-	 padding-bottom:60px;
-}
-.border-work{
-	border-top: 2px solid skyblue;
-	border-bottom: 2px solid skyblue;
-	border-left: 10%;
-	border-right: 10%;
-	  padding-top:70px;
-	padding-bottom: 70px;	
-}
-.project1{
-	text-align: center;
-	line-height:0.8em;
-	padding-bottom: 20px;	
-}
-.content1{
-	font-style: oblique;
-	font-size: 17px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 35em;
-	
-}
-
-.languages1{
-	font-style: oblique;
-	font-size: 17px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 35em;
-	
-}
-.tools1{
-	font-style: oblique;
-	font-size: 17px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 35em;
-	padding-bottom:20px;
-	
-
-}
-.border-work{
-	border: 2px solid green;
-    padding-top:50px;
-	padding-bottom: 30px;
-	padding-left: 40px;
-	padding-right: 50px;
-	margin-left: 180px;
-	margin-right: 180px;
-	line-height: 20px;	
-	margin-bottom:100px;
-
-}
-.project2{
-	text-align: center;
-	line-height:0.8em;
-	padding-bottom: 20px;	
-}
-.content2{
-	font-style: oblique;
-	font-size: 17px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 35em;
-	
-}
-
-.languages2{
-	font-style: oblique;
-	font-size: 17px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 35em;
-	
-
-}
-.tools2{
-	font-style: oblique;
-	font-size: 17px;
-	margin-left: auto;
-    margin-right: auto;
-	width: 35em;
-
-}
 .education{
 	text-align: center;
 	line-height:0.8em;
@@ -250,16 +133,7 @@ padding-bottom: 20px;
 .linked-image{
 	text-align: center;
 }
-.border-me{
-	border: 2px solid green;
-    padding-top:50px;
-	padding-bottom: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-left: 350px;
-	margin-right: 350px;
-	margin-top:150px;
-}
+ 
 .myart{
 	border: 2px solid rgb(0, 128, 53);
 	border-width: 30px;
@@ -272,35 +146,42 @@ padding-bottom: 20px;
 	
 }
 
+.dot-container {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
 .dot {
 	height: 25px;
 	width: 25px;
-	background-color: #bbb;
+	background-color: cyan;
+	border: black 3px solid;
 	border-radius: 50%;
-	display: inline-block;
-	margin-bottom: 40px;
-	 
+	/* display: inline-block; */
+	margin-bottom: 10px;	 
+  }
+
+  .dot:hover {
+	  background-color: black;
   }
  
   .dot .tooltiptext {
 	visibility: hidden;
 	width: 120px;
-	background-color:green;
+	background-color:black;
 	color: #fff;
 	text-align: center;
 	padding: 5px 0;
 	border-radius: 6px;
-   
-	
 	position: absolute;
 	z-index: 1;
   }
   .dot:hover .tooltiptext {
 	visibility: visible;
   }
-  .title1{
-	  text-align: center;
-  }
+  
  .column {
 	-ms-flex: 50%; 
 	flex: 50%;
@@ -308,21 +189,68 @@ padding-bottom: 20px;
   }
  .grid-container{
 	display: grid;
-	grid-template-rows:120px 130px 120px;	
+	grid-template-columns:1fr 2fr 1fr;	
+	width: 95%;
  }
- .virtualpet-screenshot{
-	padding-left: 360px;
-	padding-bottom: 40px;
-  }
-  .st.Hospital-screenshot{
-	padding-left: 360px;
-	padding-bottom: 40px;
  
-  }
   .mySlides{
 	  display: none;
   }
 
+  .hide {
+	  display: none;
+  }
+  	
+	.mynavicon-container {
+		display: inline-block;
+		cursor: pointer;
+	}
+	
+	.bar {
+	display:block;
+	width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+	}
+	.modal {
+		display: none; 
+		position: fixed;
+		z-index: 1;
+		padding-top: 100px;
+		left: 0;
+		top: 0;
+		width: 100%; 
+		height: 100%; 
+		overflow: auto; 
+		background-color: rgb(0,0,0); 
+		background-color: rgba(0,0,0,0.4); 
+	}
+	
+	
+	.modal-content {
+		background-color: #fefefe;
+		margin: auto;
+		padding: 20px;
+		border: 1px solid #888;
+		width: 80%;
+	}
+	
 
-
+	.close {
+		color: #aaaaaa;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
+	
+	.close:hover,
+	.close:focus {
+		color: #000;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	
+	
+	
 			

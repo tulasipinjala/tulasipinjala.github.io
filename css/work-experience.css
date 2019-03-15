@@ -1,0 +1,160 @@
+.work-experience{
+	font-size : 40px;
+	 font-style:italic;
+	 text-align: center;
+	 line-height : 1.1em;
+	 /* padding-top: 10px; */
+	 /* padding-bottom:60px; */
+}
+/* .border-work{
+	border-top: 2px solid skyblue;
+	border-bottom: 2px solid skyblue;
+	border-left: 10%;
+	border-right: 10%;
+	  /* padding-top:10px;
+	padding-bottom: 70px;	 
+} */
+.project1{
+	text-align:center;
+	/* line-height:0.8em; */
+	/* padding-bottom: 20px;	 */
+}
+.content1{
+	font-style: oblique;
+	font-size: 17px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 35em;
+	
+}
+
+.languages1{
+	font-style: oblique;
+	font-size: 17px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 35em;
+	
+}
+.tools1{
+	font-style: oblique;
+	font-size: 17px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 35em;
+	padding-bottom:20px;
+	
+
+}
+.virtualpet-screenshot{
+   
+    margin-right: 30%;
+    position: relative;
+   padding-left: 360px; 
+   padding-bottom: 100px;
+   padding-right:40%; 
+   height:35px;
+   width:25px;
+ }
+ /* .img {
+     float:left;
+     padding-top: 30px;
+ } */
+/* .border-work{
+	border: 2px solid green;
+  padding-top:50px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 50px;
+	margin-left: 180px;
+	margin-right: 180px;
+	line-height: 20px;	
+	margin-bottom:100px;
+
+} */
+.title1{
+    text-align: center;
+    font-size: 20px;
+    
+}
+/* .border{
+	border: 2px solid green;
+  padding-top:50px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 50px;
+	margin-left: 180px;
+	margin-right: 180px;
+	line-height: 20px;	
+	margin-bottom:100px;
+
+} */
+.project2{
+	text-align: center;
+	line-height:0.8em;
+	/* padding-bottom: 20px;	 */
+}
+.content2{
+	font-style: oblique;
+	font-size: 17px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 35em;
+	
+}
+
+.languages2{
+	font-style: oblique;
+	font-size: 17px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 35em;
+	
+
+}
+.tools2{
+	font-style: oblique;
+	font-size: 17px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 35em;
+
+}
+
+ .stHospital-screenshot{
+   margin-right: 30%;
+   position: relative;
+   padding-left: 360px; 
+   /* padding-bottom: 100px; */
+   padding-right:40%; 
+   height:35px;
+   width:50px;
+   display: center;
+ }
+ img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+    
+  }
+  .bg-image {
+    height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+     /* border: 10px solid grey;  */
+    position: fixed;
+     top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%); 
+    z-index: 2;
+    width: 80%; 
+	padding:0px;
+    text-align: center;
+  }  
