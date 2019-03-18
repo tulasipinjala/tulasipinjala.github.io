@@ -143,7 +143,9 @@ img {
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+.carousel-border{
+  border:2px;
+}
   @-webkit-keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
@@ -157,3 +159,26 @@ img {
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }  
+  /* .bg-image {
+    height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+     /* border: 10px solid #f1f1f1;  
+    position: fixed;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%); 
+    z-index: 2;
+    width: 800px;
+	padding:0px;
+    text-align: center;
+  }   */
