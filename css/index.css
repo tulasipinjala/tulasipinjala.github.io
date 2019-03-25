@@ -274,6 +274,13 @@
 	margin-top: 70px;
 	margin-right:100px;
 	width:35px;
+
+}
+.hide-list{
+	display:none;
+}
+.show-list{
+	display:block;
 }
 footer {
   background-color: green;

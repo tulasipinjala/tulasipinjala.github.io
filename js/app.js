@@ -14,11 +14,11 @@ function toggleHide(element) {
 const myHomeButton = document.querySelector('.hide-navicon-button')
 
 myHomeButton.addEventListener('click',() => {
-  toggleHide(document.querySelector('.mynavicon'))
+  toggleHide(document.querySelector('.hide-list'))
 });
 
 function toggleHide(element){
-  element.classList.toggle('hide');
+  element.classList.toggle('show-list');
 }
 // function hideIcons(){
 // hideIconButtons.forEach(function foo(button){
