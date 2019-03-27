@@ -1,14 +1,14 @@
 
-let title = 'title';
-const myPageButton = document.querySelector('.hide-mypage')
+// let title = 'title';
+// const myPageButton = document.querySelector('.hide-mypage')
 
-myPageButton.addEventListener('click', () => {
-  toggleHide(document.querySelector('.mypage-container'))
-});
+// myPageButton.addEventListener('click', () => {
+//   toggleHide(document.querySelector('.mypage-container'))
+// });
 
-function toggleHide(element) {
-  element.classList.toggle('hide')
-}
+// function toggleHide(element) {
+//   element.classList.toggle('hide')
+// }
 
 
 const myHomeButton = document.querySelector('.hide-navicon-button')
